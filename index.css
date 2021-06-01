@@ -1,0 +1,57 @@
+body {
+    background-color: rgba(154, 201, 189, 0.966);
+}
+
+.container {
+    text-align: center;
+    width: 50%;
+    background-color: rgba(204, 168, 111, 0.637);
+    padding: 2rem;
+    border: 1px solid rgba(153, 109, 51, 0.918);
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+
+.container1 {
+    background-color: rgba(228, 191, 131, 0.733);
+    border: 1px solid rgba(194, 129, 76, 0.918);
+}
+
+.btn1 {
+    background-color: rgba(202, 138, 138, 0.678);
+    font-weight: bold;
+}
+
+.review {
+    text-align: left;
+}
+
+.section {
+    border: 1px solid rgba(68, 54, 44, 0.918);
+    background-color: rgba(160, 152, 128, 0.767);
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.col-md-2{
+    width: 15rem;
+}
+
+.mail,.product{
+    overflow-y :auto;
+   
+}
+
+@media (max-width:400px) {
+    .container {
+        width: 80%;
+    }
+
+    .h4,
+    .h5,
+    .h6 {
+        font-size: smaller;
+    }
+}
